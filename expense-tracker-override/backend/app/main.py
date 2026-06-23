@@ -6,6 +6,7 @@ from app.routes.auth import router as auth_router
 from app.routes.expenses import router as expenses_router
 from app.utils.openapi import custom_openapi
 
+#aaded this comment to triger the workflow
 app = FastAPI(
     title="Expense Tracker API", 
     version="1.0.0", 
